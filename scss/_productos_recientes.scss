@@ -1,0 +1,26 @@
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#productos_separator{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+
+    .content{
+        width: 110%;
+        height: 150px;
+        margin-left: -5px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+}
