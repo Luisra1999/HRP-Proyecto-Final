@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-height: 100vh;
+  width: 100%; }
+
+.imagen_hero {
+  display: block;
+  margin: auto; }
+
+#navBar {
+  background-color: #0d6efd; }
+  #navBar .navBar__content--logo--nav {
+    width: 150px; }
+
+#ribbon {
+  background-color: red;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px); }
+
+#ribbon::after {
+  content: " ";
+  background-color: transparent;
+  display: block;
+  height: 20px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  left: auto; }
+
+#ribbon_section {
+  background-color: red;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.text-shadow {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6); }
+
+#ribbon_separator {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2; }
+  #ribbon_separator .content {
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; }
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s; }
+
+.card-border:hover {
+  transform: scale(1.05); }
+
+#productos_separator {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2; }
+  #productos_separator .content {
+    width: 110%;
+    height: 150px;
+    margin-left: -5px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+
+.error {
+  background-image: -225deg #473b7b 0%, #3584a7 51%, #30d2b3 100%; }
+
+h1 {
+  margin: 0px; }
+
+.error__mensaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+  width: 100%; }
+  .error__mensaje .error__mensaje--container {
+    text-align: center;
+    color: white; }
+    .error__mensaje .error__mensaje--container h1 {
+      font-size: 80px; }
+    .error__mensaje .error__mensaje--container p {
+      font-size: 10px; }
+
+.preguntas_frecuentes {
+  padding-left: 150px;
+  padding-bottom: 30px; }
+
+.contact-in {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #666; }
+  .contact-in .contact-map {
+    width: 100%;
+    height: auto;
+    flex: 50%; }
+    .contact-in .contact-map iframe {
+      width: 100%;
+      height: 100%; }
+  .contact-in .contact-form {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 30px;
+    text-align: center; }
+    .contact-in .contact-form h1 {
+      margin-bottom: 10px; }
+  .contact-in .contact-form-txt {
+    width: 100%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px; }
+    .contact-in .contact-form-txt ::placeholder {
+      color: #aaa; }
+  .contact-in .contact-form-textarea {
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif; }
+    .contact-in .contact-form-textarea ::placeholder {
+      color: #aaa; }
+  .contact-in .contact-form-btn {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 5px 10px 0 rgba(205, 209, 215, 0.8);
+    background: linear-gradient(to right, #dd0606, #0b92c4);
+    color: #fff;
+    animation: gradient 2.5s ease infinite;
+    box-sizing: border-box; }
+
+footer {
+  background: #0D6EFD;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+
+footer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100px;
+  height: 1px;
+  width: 100%; }
+
+footer .content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px; }
+
+footer .content .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+
+.content .top .media-icons {
+  display: flex; }
+
+.content .top .media-icons a {
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease; }
+
+.top .media-icons a:nth-child(1) {
+  background: #4267B2; }
+
+.top .media-icons a:nth-child(1):hover {
+  color: #4267B2;
+  background: #fff; }
+
+.top .media-icons a:nth-child(2) {
+  background: #1DA1F2; }
+
+.top .media-icons a:nth-child(2):hover {
+  color: #1DA1F2;
+  background: #fff; }
+
+.top .media-icons a:nth-child(3) {
+  background: #E1306C; }
+
+.top .media-icons a:nth-child(3):hover {
+  color: #E1306C;
+  background: #fff; }
+
+footer .content .link-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+footer .content .link-boxes .box {
+  width: calc(100% / 5 - 10px); }
+
+.content .link-boxes .box .link_name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative; }
+
+.link-boxes .box .link_name::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff; }
+
+.content .link-boxes .box li {
+  margin: 6px 0;
+  list-style: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease; }
+
+.content .link-boxes .box li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease; }
+
+.content .link-boxes .box li a:hover {
+  opacity: 1;
+  text-decoration: underline; }
+
+.content .link-boxes .input-box {
+  margin-right: 55px; }
+
+.link-boxes .input-box input {
+  height: 40px;
+  width: calc(100% + 55px);
+  outline: none;
+  border: 2px solid #AFAFB6;
+  background: #140B5C;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px; }
+
+.link-boxes .input-box input::placeholder {
+  color: #AFAFB6;
+  font-size: 16px; }
+
+.link-boxes .input-box input[type="button"] {
+  background: #fff;
+  color: #140B5C;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease; }
+
+.input-box input[type="button"]:hover {
+  opacity: 1; }
+
+footer .bottom-details {
+  width: 100%;
+  background: #0F0844; }
+
+footer .bottom-details .bottom_text {
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between; }
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none; }
+
+.bottom-details .bottom_text a:hover {
+  opacity: 1;
+  text-decoration: underline; }
+
+.bottom-details .bottom_text a {
+  margin-right: 10px; }
+
+@media (max-width: 900px) {
+  footer .content .link-boxes {
+    flex-wrap: wrap; }
+  footer .content .link-boxes .input-box {
+    width: 40%;
+    margin-top: 10px; } }
+
+@media (max-width: 700px) {
+  footer {
+    position: relative; }
+  .content .top .logo-details {
+    font-size: 26px; }
+  .content .top .media-icons a {
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px; }
+  footer .content .link-boxes .box {
+    width: calc(100% / 3 - 10px); }
+  footer .content .link-boxes .input-box {
+    width: 60%; }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a {
+    font-size: 12px; } }
+
+@media (max-width: 520px) {
+  footer::before {
+    top: 145px; }
+  footer .content .top {
+    flex-direction: column; }
+  .content .top .media-icons {
+    margin-top: 16px; }
+  footer .content .link-boxes .box {
+    width: calc(100% / 2 - 10px); }
+  footer .content .link-boxes .input-box {
+    width: 100%; } }
