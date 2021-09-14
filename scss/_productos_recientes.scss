@@ -24,3 +24,17 @@
         border-top-right-radius: 50%;
     }
 }
+
+@media (max-width:320px){
+    #productos_separator{
+        width: 100%;
+        
+        .content{
+        height: 80px;
+        overflow: hidden;
+        margin-left: -5%;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        }
+    }
+}

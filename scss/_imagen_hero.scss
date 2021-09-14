@@ -1,0 +1,56 @@
+.imagen_hero--seccion{
+    display: block;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1024px){
+    .imagen_hero--seccion{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .imagen_hero--seccion{
+        width: 100%;
+        max-width: 575px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .imagen_hero--seccion{
+        width: 100%;
+        max-width: 575px;
+    }
+}
+@media screen and (max-width: 520px){
+    .imagen_hero--seccion{
+        width: 100%;
+        max-width: 520px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .imagen_hero--seccion{
+        width: 100%;
+        max-width: 425px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .imagen_hero--seccion{
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .imagen_hero--seccion{
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+

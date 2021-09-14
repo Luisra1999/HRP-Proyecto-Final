@@ -1,0 +1,46 @@
+.imagen_sobre--nosotros{
+    width: 500px;
+}
+
+@media screen and (max-width: 768px){
+    .imagen_sobre--nosotros{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 575px){
+    .imagen_sobre--nosotros{
+        width: 100%;
+        max-width: 575px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .imagen_sobre--nosotros{
+        width: 100%;
+        max-width: 520px;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .imagen_sobre--nosotros{
+        width: 100%;
+        max-width: 425px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .imagen_sobre--nosotros{
+        width: 100%;
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .imagen_sobre--nosotros{
+        width: 100%;
+        max-width: 350px;
+    }
+}

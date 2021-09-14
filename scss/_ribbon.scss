@@ -40,6 +40,30 @@
 
 }
 
+@media screen and (max-width:320px){
+    
+    #ribbon{
+        width: 100%;
+    }
+    
+    .text-light{
+        font-size: 15px;
+    }
+
+    .text-shadow{
+        font-size: 10px;
+    }
+
+    #ribbon_separator{
+        width: 112.4%;
+        height: 80px;
+        overflow: hidden;
+        margin-left: -12.5%;
+        border-bottom-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+
+    }
+}
    
 
     

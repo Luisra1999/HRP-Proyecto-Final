@@ -1,5 +1,50 @@
 .preguntas_frecuentes{
-    padding-left: 150px;
-    padding-bottom: 30px;
+    text-align: center;
+}
 
+@media screen and(max-width: 425px){
+    table{
+        width: 100%;
+        max-width: 425px;
+    }
+
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:375px){
+    table{
+        width: 100%;
+        max-width: 375px;
+    }
+
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-width:320px){
+    table{
+        width: 100%;
+        max-width: 320px;
+    }
+
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-width:280px){
+    table{
+        width: 100%;
+        max-width: 280px;
+    }
+
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
 }
