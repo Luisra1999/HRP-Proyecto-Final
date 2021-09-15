@@ -2,6 +2,13 @@
     width: 500px;
 }
 
+.texto_sobre-nosotros{
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 1em;
+
+}
+
 @media screen and (max-width: 768px){
     .imagen_sobre--nosotros{
         display: block;

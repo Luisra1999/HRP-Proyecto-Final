@@ -66,11 +66,10 @@ nav {
 
 #ribbon_section {
   background-color: red;
-  position: relative;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+  position: relative; }
 
 .text-shadow {
-  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6); }
+  color: white; }
 
 #ribbon_separator {
   width: 100%;
@@ -132,6 +131,11 @@ nav {
 
 .imagen_sobre--nosotros {
   width: 500px; }
+
+.texto_sobre-nosotros {
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 1em; }
 
 @media screen and (max-width: 768px) {
   .imagen_sobre--nosotros {
@@ -563,7 +567,7 @@ footer .bottom-details .bottom_text {
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #00c4f3;
+  background: red;
   z-index: 5;
   left: 0;
   right: 0;
@@ -573,7 +577,7 @@ footer .bottom-details .bottom_text {
   margin-top: 0; }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #00c4f3;
+  border-bottom: 4px solid red;
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px; }
@@ -581,7 +585,7 @@ footer .bottom-details .bottom_text {
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #00c4f3;
+  border-top: 4px solid red;
   bottom: -4px; }
 
 .direction-l,
